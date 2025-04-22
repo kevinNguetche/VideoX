@@ -69,8 +69,8 @@ _C.TEST.ONLY_TEST = False
 # Misc
 # -----------------------------------------------------------------------------
 _C.OUTPUT = ''
-_C.SAVE_FREQ = 1
-_C.PRINT_FREQ = 50
+_C.SAVE_FREQ = 5
+_C.PRINT_FREQ = 100
 _C.SEED = 1024
 
 
