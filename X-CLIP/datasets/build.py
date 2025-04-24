@@ -304,7 +304,7 @@ def build_dataloader(logger, config):
     sampler_val = SubsetRandomSampler(indices)
     val_loader = DataLoader(
         val_data, sampler=sampler_val,
-        batch_size=2,
+        batch_size=config.TRAIN.BATCH_SIZE,
         num_workers=16,
         pin_memory=True,
         drop_last=True,
