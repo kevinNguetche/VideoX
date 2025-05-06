@@ -61,8 +61,8 @@ _C.AUG.MIXUP_SWITCH_PROB = 0.5
 # Testing settings
 # -----------------------------------------------------------------------------
 _C.TEST = CN()
-_C.TEST.NUM_CLIP = 1
-_C.TEST.NUM_CROP = 1
+_C.TEST.NUM_CLIP = 4
+_C.TEST.NUM_CROP = 3
 _C.TEST.ONLY_TEST = False
 
 # -----------------------------------------------------------------------------
